@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeros and Ones Academy</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/icon_dark.PNG" type="image/x-icon">
+    <style>
+    /*form styling*/
+    main div.container{
+        justify-content: start;
+        gap: 20px;
+    }
+    main h1{
+        text-align: center;
+    }
+    main p{
+        text-align: center;
+        color: var(--lightgreen);
+    }
+    form {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        backdrop-filter: blur(16px);
+    }
+
+    /*input styling*/
+    input {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /*button styling*/
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: var(--lightgreen);
+        color: #fff;
+        border: 1px solid var(--lightgreen);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /*select styling*/
+    select {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    </style>
+          
+
+</head>
+<body>
+    <header class="container">
+        <a href="/" class="main-logo">
+            <img height="70" src="images/icon_dark.JPG" alt="Zeros and ones Logo">
+            <h1>0s & 1s</h1>
+        </a>
+        <nav>
+            <a href="about.html" class="navlink">About</a>
+            <a href="login.html" class="navlink">Log In</a>
+            <a href="register.html" class="navlink">Register</a>
+    
+        </nav>
+    
+    </header>
+    <main>
+        <div class="container">
+            <h1>Log In</h1>
+
+            
+          
+
+             <form action="/login" method="post">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>                
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </main>
+ 
+
+</body>
+</html>
